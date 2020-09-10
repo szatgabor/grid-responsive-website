@@ -85,7 +85,14 @@ h6 {
 }
 
 .btn-primary {
+<<<<<<< HEAD
 	background: var(--primary-color);
+=======
+  background: var(--primary-color);
+  color: var(--light-color);
+  text-decoration: none;
+  padding: 10px 20px;
+>>>>>>> origin/showcase
 }
 
 .btn-secondary {
@@ -212,7 +219,14 @@ h6 {
 }
 
 /* Showcase */
-#showcase {}
+#showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/featured.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: var(--light-color);
+}
 
 #showcase:before {}
 
@@ -226,7 +240,11 @@ h6 {
 
 #showcase .showcase-content {}
 
-#showcase .showcase-content p {}
+#showcase .showcase-content p {
+  margin-bottom: 20px;
+}
+
+
 
 /* Home Articles */
 #home-articles .articles-container {
