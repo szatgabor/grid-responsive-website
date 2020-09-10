@@ -10,8 +10,6 @@
   display: none;
 }
 
-#main-nav .social {}
-
 #main-nav .container {}
 
 #main-nav ul,
@@ -26,8 +24,6 @@
 
 }
 
-#main-nav ul li a {}
-
 #home-articles .articles-container {}
 
 #home-articles .articles-container>*:first-child,
@@ -36,6 +32,14 @@
 @media (max-width: 600px) {
   #showcase .showcase-container {
     display: none;
+  }
+
+  #home-articles .articles-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
   }
 
   #showcase .showcase-container,
