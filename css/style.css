@@ -199,6 +199,7 @@ h6 {
 
 #main-nav .social i {
   color: var(--dark-color);
+  margin: 0 0.3rem;
 }
 
 /* Showcase */
