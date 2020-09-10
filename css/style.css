@@ -119,6 +119,8 @@ h6 {
 }
 
 .bg-primary {
+	background-color: var(--primary-color);
+	color: #fff;
 }
 
 .bg-secondary {

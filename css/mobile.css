@@ -42,7 +42,7 @@
 	}
 
 	.page-container > *:first-child {
-		display: none;
+		/* display: none; */
 	}
 
 	.l-heading {
