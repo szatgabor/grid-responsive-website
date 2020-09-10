@@ -24,9 +24,13 @@ body {
   background: var(--light-color);
 }
 
-a {}
+a {
+  text-decoration: none;
+}
 
-ul {}
+ul {
+  list-style: none;
+}
 
 p {}
 
@@ -160,7 +164,11 @@ h6 {
 /* Navigation */
 #main-nav {}
 
-#main-nav .container {}
+#main-nav .container {
+  display: grid;
+  grid-template-columns: 60% 20% 20%;
+  padding: 1rem;
+}
 
 #main-nav .logo {
   width: 180px;
@@ -171,17 +179,27 @@ h6 {
   display: flex;
 }
 
-#main-nav ul li a {}
+#main-nav ul li a {
+  padding: 0.8rem 0.9rem;
+  font-weight: bold;
+  transition: all 0.4s ease;
+  color: var(--dark-color);
+}
 
 #main-nav ul li a.current {}
 
-#main-nav ul li a:hover {}
+#main-nav ul li a:hover {
+  background: var(--primary-color);
+  color: white;
+}
 
 #main-nav .social {
   justify-self: center;
 }
 
-#main-nav .social i {}
+#main-nav .social i {
+  color: var(--dark-color);
+}
 
 /* Showcase */
 #showcase {}
