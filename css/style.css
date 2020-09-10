@@ -25,31 +25,25 @@ body {
 }
 
 a {
-<<<<<<< HEAD
-	<<<<<<< HEAD text-decoration: none;
-=======
+	text-decoration: none;
 	color: #000;
 	text-decoration: none;
->>>>>>> origin/article
 }
 
 ul {
 	list-style: none;
-	=======text-decoration: none;
-	>>>>>>>origin/homearticles
+	text-decoration: none;
 }
 
 ul {}
 
-<<<<<<< HEAD
 p {}
 
 img {}
-=======
+
 img {
 	width: 100%;
 }
->>>>>>> origin/article
 
 h1,
 h2,
@@ -57,9 +51,8 @@ h3,
 h4,
 h5,
 h6 {
-	<<<<<<< HEAD font-family: "Staatliches", cursive;
-	=======font-family: 'Staatliches', cursive;
-	>>>>>>>origin/homearticles
+	font-family: "Staatliches", cursive;
+	font-family: 'Staatliches', cursive;
 }
 
 /* Utility */
@@ -112,7 +105,6 @@ h6 {
 	padding: 0.4rem 1.3rem;
 }
 
-<<<<<<< HEAD
 .btn-block {}
 
 .btn:hover {}
@@ -120,7 +112,8 @@ h6 {
 .card {
 	padding: 1rem;
 	background-color: white;
-=======
+}
+
 .btn-dark {
 	background-color: var(--dark-color);
 	margin-top: 0.5rem;
@@ -139,14 +132,12 @@ h6 {
 .card {
 	background-color: #fff;
 	padding: 1rem;
->>>>>>> origin/article
 }
 
 .card img {
 	width: 100%;
 }
 
-<<<<<<< HEAD
 .bg-dark {
 	background-color: var(--dark-color);
 	padding: 3%;
@@ -156,7 +147,7 @@ h6 {
 .bg-primary {}
 
 .bg-secondary {}
-=======
+
 .bg-primary {
 	background-color: var(--primary-color);
 	color: #fff;
@@ -166,7 +157,6 @@ h6 {
 	background-color: var(--secondary-color);
 	color: #fff;
 }
->>>>>>> origin/article
 
 .bg-dark h1,
 .bg-dark h2,
@@ -209,15 +199,13 @@ h6 {
 
 .l-heading {}
 
-<<<<<<< HEAD
 .list li {}
-=======
+
 .list li {
 	list-style: none;
 	border-bottom: 1px dotted black;
 	padding: 0.5rem;
 }
->>>>>>> origin/article
 
 .list li a:hover {
 	color: var(--primary-color) !important;
