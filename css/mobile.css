@@ -17,8 +17,7 @@
 
 #home-articles .articles-container > *:first-child,
 #home-articles .articles-container > *:last-child {
-	display: grid;
-	grid-template-columns: 1fr;
+	grid-column: 1;
 }
 
 @media (max-width: 600px) {
@@ -30,10 +29,12 @@
 	}
 
 	#main-footer .footer-container > *:last-child {
+		grid-template-columns: 1fr;
+		grid-column: 1;
 	}
 
-	#main-footer .footer-container > *:first-child,
-	#main-footer .footer-container > *:nth-child(2) {
+	#main-footer .footer-container > *:first-child {
+		display: none;
 	}
 
 	.page-container {

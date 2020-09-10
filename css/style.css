@@ -36,6 +36,7 @@ p {
 }
 
 img {
+	width: 100%;
 }
 
 h1,
@@ -299,7 +300,6 @@ h6 {
 	display: grid;
 	grid-gap: 1rem;
 	grid-template-columns: repeat(4, 1fr);
-	font-size: 0.9rem;
 }
 
 #main-footer .footer-container > *:last-child {
@@ -312,11 +312,11 @@ h6 {
 }
 
 #main-footer .footer-container input[type="email"] {
-	width: 14rem;
+	width: 90%;
 }
 
 #main-footer .footer-container input[type="submit"] {
-	width: 14rem;
+	width: 90%;
 	height: 2rem;
 	margin-top: 0.3rem;
 	color: var(--light-color);
@@ -329,6 +329,5 @@ h6 {
 }
 
 #main-footer .list li {
-	list-style: none;
 	border-bottom: 1px dotted gray;
 }
