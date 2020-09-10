@@ -24,7 +24,9 @@ body {
   background: var(--light-color);
 }
 
-a {}
+a {
+  text-decoration: none;
+}
 
 ul {}
 
@@ -39,7 +41,6 @@ h4,
 h5,
 h6 {
   font-family: 'Staatliches', cursive;
-
 }
 
 /* Utility */
@@ -93,9 +94,20 @@ h6 {
 
 .btn:hover {}
 
-.card {}
+.card {
+  padding: 1rem;
+  background-color: white;
+}
 
-.bg-dark {}
+.card img {
+  width: 100%;
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+  padding: 3%;
+  color: var(--light-color);
+}
 
 .bg-primary {}
 
@@ -220,7 +232,9 @@ h6 {
 #home-articles .articles-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 2rem;
+  padding: 1rem;
+
 }
 
 #home-articles .articles-container>*:first-child,
