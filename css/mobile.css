@@ -17,6 +17,8 @@
 
 #home-articles .articles-container > *:first-child,
 #home-articles .articles-container > *:last-child {
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
 @media (max-width: 600px) {
