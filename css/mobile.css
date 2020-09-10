@@ -1,5 +1,5 @@
 /* Navigation */
-<<<<<<< HEAD #main-nav .container {
+#main-nav .container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
@@ -8,63 +8,58 @@
 
 #main-nav .social {
   display: none;
+}
 
-  =======#main-nav .social {}
+#main-nav .social {}
 
-  #main-nav .container {
-    >>>>>>>e7172a35756af7ed1c80bc41705df31b1ea09e83
+#main-nav .container {}
+
+#main-nav ul,
+#main-nav .logo {
+  list-style: none;
+  margin: 0.3rem auto;
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+  padding: 1rem;
+
+}
+
+#main-nav ul li a {}
+
+#home-articles .articles-container {}
+
+#home-articles .articles-container>*:first-child,
+#home-articles .articles-container>*:last-child {}
+
+@media (max-width: 600px) {
+  #showcase .showcase-container {
+    display: none;
   }
 
-  #main-nav ul,
-  #main-nav .logo {
-    <<<<<<< HEAD list-style: none;
-    margin: 0.3rem auto;
+  #showcase .showcase-container,
+  #home-articles .articles-container,
+  #main-footer .footer-container {}
+
+
+
+  /* Stack Grid Items */
+  #showcase .showcase-container,
+  #home-articles .articles-container,
+  #main-footer .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
   }
 
-  #main-nav ul li a {
-    text-decoration: none;
-    padding: 1rem;
-    =======
-  }
+  #main-footer .footer-container>*:last-child {}
 
-  #main-nav ul li a {
-    >>>>>>>e7172a35756af7ed1c80bc41705df31b1ea09e83
-  }
+  #main-footer .footer-container>*:first-child,
+  #main-footer .footer-container>*:nth-child(2) {}
 
-  #home-articles .articles-container {}
+  .page-container {}
 
-  #home-articles .articles-container>*:first-child,
-  #home-articles .articles-container>*:last-child {}
+  .page-container>*:first-child {}
 
-  @media (max-width: 600px) {
-    <<<<<<< HEAD
-
-    /* Stack Grid Items */
-    #showcase .showcase-container {
-      display: none;
-    }
-
-    #showcase .showcase-container,
-    #home-articles .articles-container,
-    #main-footer .footer-container {}
-
-    =======
-
-    /* Stack Grid Items */
-    #showcase .showcase-container,
-    #home-articles .articles-container,
-    #main-footer .footer-container {
-      grid-template-columns: 1fr;
-    }
-
-    #main-footer .footer-container>*:last-child {}
-
-    >>>>>>>e7172a35756af7ed1c80bc41705df31b1ea09e83 #main-footer .footer-container>*:first-child,
-    #main-footer .footer-container>*:nth-child(2) {}
-
-    .page-container {}
-
-    .page-container>*:first-child {}
-
-    .l-heading {}
-  }
+  .l-heading {}
+}
