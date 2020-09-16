@@ -10,6 +10,7 @@ body {
 
     font-family: "Lato", sans-serif;
     line-height: 1.5;
+<<<<<<< HEAD
     background: $light-color;
 }
 
@@ -221,3 +222,60 @@ img {
 
         //   .showcase-content p {}
     }
+=======
+    background: var(--light-color);
+}
+
+//Footer
+
+#main-footer {
+    background-color: $dark-color;
+    color: #fff;
+
+    img {
+        width: 10rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: $light-color;
+    }
+
+    .list {
+        width: 80%;
+
+        li {
+            border-bottom: 1px dotted gray;
+        }
+    }
+
+
+    .footer-container {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+
+        input[type="email"] {
+            width: 90%;
+        }
+
+        input[type="submit"] {
+            width: 90%;
+            height: 2rem;
+            margin-top: 0.3rem;
+            color: $light-color;
+            background-color: $primary-color;
+            border: 1px solid $primary-color;
+        }
+    }
+
+    .footer-container>*:last-child {
+        grid-column: 1 / 5;
+        background-color: #474747;
+        color: #fff;
+        padding: 0.7rem;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
+>>>>>>> origin/sass_footer
