@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'var';
 
 * {
@@ -26,6 +27,123 @@ ul {
 
 img {
     width: 100%;
+=======
+.container {
+	max-width: $max-width;
+	margin: auto;
+	padding: 0 2rem;
+	overflow: hidden;
+}
+
+.category {
+	display: inline-block;
+	color: #fff;
+	font-size: 0.55rem;
+	text-transform: uppercase;
+	padding: 0.4rem 0.6rem;
+	border-radius: 15px;
+	margin-bottom: 0.5rem;
+}
+
+.category-sports {
+	background: $sports-color;
+}
+
+.category-ent {
+	background: $ent-color;
+}
+
+.category-tech {
+	background: $tech-color;
+}
+
+.btn {
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&-light {
+		background: $light-color;
+	}
+
+	&-primary {
+		background: $primary-color;
+	}
+
+	&-secondary {
+		background: $secondary-color;
+	}
+
+	//   &-block {}
+}
+
+.card {
+}
+
+.bg-dark {
+}
+
+.bg-primary {
+}
+
+.bg-secondary {
+}
+
+.bg-primary h1,
+.bg-primary h2,
+.bg-primary h3,
+.bg-primary a,
+.bg-secondary h1,
+.bg-secondary h2,
+.bg-secondary h3,
+.bg-secondary a {
+	color: #fff;
+}
+
+.py-1 {
+	padding: 1.5rem 0;
+}
+
+.py-2 {
+	padding: 2rem 0;
+}
+
+.py-3 {
+	padding: 3rem 0;
+}
+
+.p-1 {
+	padding: 1.5rem;
+}
+
+.p-2 {
+	padding: 2rem;
+}
+
+.p-3 {
+	padding: 3rem;
+}
+
+.l-heading {
+}
+
+.list li {
+	a:hover {
+		color: $primary-color !important;
+	}
+}
+
+/* Inner page grid container */
+.page-container {
+	display: grid;
+	grid-template-columns: 5fr 2fr;
+	margin: ;
+	grid-gap: ;
+
+	& > *:first-child {
+		grid-row: 1 / span 3;
+	}
+>>>>>>> origin/sass-utility
 }
 
 h1,
