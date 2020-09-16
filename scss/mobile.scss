@@ -1,0 +1,16 @@
+#home-articles {
+	.articles-container > *:first-child,
+	.articles-container > *:last-child {
+		grid-column: 1;
+	}
+}
+
+@media (max-width: 600px) {
+	/* Stack Grid Items */
+	#showcase .showcase-container,
+	#home-articles .articles-container,
+	#main-footer .footer-container {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(5, 1fr);
+	}
+}
