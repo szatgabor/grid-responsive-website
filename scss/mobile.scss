@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #main-nav {
     .container {
         display: grid;
@@ -21,3 +22,10 @@
         padding: 1rem;
     }
 }
+=======
+@media (max-width: 600px) {
+	#showcase .showcase-container {
+		display: none;
+	}
+}
+>>>>>>> origin/sass-showcase
