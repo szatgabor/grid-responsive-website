@@ -1,3 +1,5 @@
+@import 'var';
+
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +10,48 @@ body {
     font-family: "Lato", sans-serif;
     line-height: 1.5;
     background: var(--light-color);
+}
+
+#main-nav {
+    position: sticky;
+    top: 0;
+    background-color: $light-color;
+
+    .container {
+        display: grid;
+        grid-template-columns: 60% 20% 20%;
+        padding: 1 rem;
+
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    ul {
+        justify-self: end;
+        display: flex;
+
+        li a {
+            padding: 0.8rem 0.9rem;
+            font-weight: bold;
+            transition: all 0.4s ease;
+            color: $dark-color;
+
+            &:hover {
+                background: $primary-color;
+                color: $light-color;
+            }
+        }
+    }
+
+    .social {
+        justify-self: center;
+
+        i {
+            color: $dark-color;
+            margin: 0 0.3rem;
+        }
+    }
+
 }
