@@ -1,11 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: "Lato", sans-serif;
-    line-height: 1.5;
-    background: var(--light-color);
+	font-family: "Lato", sans-serif;
+	line-height: 1.5;
+	background: var(--light-color);
+}
+
+#showcase {
+	.showcase-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-content: center;
+		align-items: center;
+		height: 50vh;
+	}
+
+	.showcase-content {
+		z-index: 1;
+	}
+
+	//   .showcase-content p {}
 }
