@@ -4,24 +4,28 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         justify-items: center;
-    }
 
-    .social {
-        display: none;
-    }
+        .social {
+            display: none;
+        }
 
-    ul,
-    .logo {
-        list-style: none;
-        margin: 0.3rem auto;
-    }
+        ul,
+        .logo {
+            list-style: none;
+            margin: 0.3rem auto;
+        }
 
-    ul li a {
-        text-decoration: none;
-        padding: 1rem;
-<<<<<<< HEAD
-=======
+        ul {
+            justify-self: end;
+            display: flex;
 
+            li {
+                a {
+                    text-decoration: none;
+                    padding: 1rem;
+                }
+            }
+        }
     }
 }
 
@@ -30,20 +34,12 @@
     .articles-container>*:first-child,
     .articles-container>*:last-child {
         grid-column: 1;
->>>>>>> origin/sass_footer
     }
 }
 
 @media (max-width: 600px) {
-<<<<<<< HEAD
-    #showcase .showcase-container {
-        display: none;
-    }
-=======
     #showcase {
-        .showcase-container {
-            display: none;
-        }
+        display: none;
     }
 }
 
@@ -71,5 +67,4 @@
 #main-footer .footer-container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
->>>>>>> origin/sass_footer
 }
